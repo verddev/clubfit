@@ -1,0 +1,41 @@
+.faqSection {
+    padding: 50px 20px;
+    background-color: #F7F7F7;
+  }
+  
+  .faqSection>h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .faqContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .faq {
+    flex: 1 1 45%;
+  }
+  
+  .faqQuestion {
+    background-color: #C70039;
+    color: #FFF;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .faqAnswer {
+    background-color: #FFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,37 @@
+.dropdownSection {
+  padding: 50px 20px;
+}
+
+.dropdownContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espaço entre os botões */
+}
+
+.dropdown {
+  flex: 1 1 45%; /* Ajusta a largura dos botões para ocupar metade do container */
+}
+
+.dropdownButton {
+  background-color: #C70039;
+  color: #FFF;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 10px;
+  width: 100%; /* Faz o botão ocupar toda a largura disponível */
+}
+
+.dropdownContent {
+  background-color: #FFF;
+  border: 1px solid #979797;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+  max-width: 500px;
+  display: block;
+  margin: 10px auto;
+}

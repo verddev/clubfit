@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.primary-btn {
+  background-color: #C70039;
+  color: #FFF;
+}
+
+.large-btn {
+  background-color: #FF5733;
+  color: #FFF;
+  font-size: 1.5em;
+}
